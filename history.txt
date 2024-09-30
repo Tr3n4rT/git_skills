@@ -1,0 +1,3 @@
+ 3221  grep France,2019,PHP wilders.csv| wc -l php_france_2019.csv
+ 3222  grep -e JavaScript wilders.csv > javascript_wilder.csv
+ 3223  grep -e Toulouse javascript_wilder.csv > javascript_biarritz_toulouse.csv ; grep -e Biarritz javascript_wilder.csv >> javascript_biarritz_toulouse.csv
