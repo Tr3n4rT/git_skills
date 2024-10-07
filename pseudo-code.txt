@@ -1,0 +1,13 @@
+compte_bonbon (réel argent, réel prix-bonbon)
+
+Si réel argent <= 0
+retourner "vous n’avez pas assez d’argent"
+fin compte_bonbon
+
+Tant que réel argent > réel prix-bon
+entier nb-bonbon + 1
+réel argent = réel argent - réel prix-bonbon
+Fin Tant que
+
+retourner entier nb-bonbon
+fin compte_bonbon
