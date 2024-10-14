@@ -1,2 +1,0 @@
-# WCS
-Quetes WCS
